@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.clear{
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.card{
+    width: 50%;
+    padding: 8px;
+}
+.card img{
+    width: 100%;
+}
+

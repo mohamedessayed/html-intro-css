@@ -1,0 +1,17 @@
+/* section{
+    background-color: tomato;
+} */
+
+h1, p{
+    text-align: center;
+}
+
+div{
+    /* background-color: teal; */
+    width: 33%;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+}

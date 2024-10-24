@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.float-left{
+    float: left;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.brand{
+    width: 20%;
+}
+
+.menu{
+    width: 80%;
+}
+.navbar{
+    padding: 8px 16px;
+    background-color: rgba(240, 240, 240, 0.801);
+}
+.menu ul{
+    list-style: none;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.menu ul li{
+    margin: 0px 16px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+
+}
+
+
+.settings{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.child{
+    width: 25px;
+    height: 35px;
+    background-color: teal;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
