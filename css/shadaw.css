@@ -1,0 +1,47 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 200 version
+*/
+
+div{
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    -webkit-box-shadow: #9d9898b5 10px 10px 5px;
+       -moz-box-shadow: #9d9898b5 10px 10px 5px;
+            box-shadow: #9d9898b5 10px 10px 5px;
+}
+
+div:hover h2{
+    color: red;
+}
+
+div h2{
+    position: relative;
+    text-align: center;
+}
+
+div h2::after{
+    content: 'HTML CSS';
+    position: absolute;
+    color: #c4c1c1;
+    opacity: 0.5;
+    font-size: 46px;
+    left: 50%;
+    top: -100%;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.gradiant{
+    height: 300px;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}

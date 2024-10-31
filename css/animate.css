@@ -1,0 +1,105 @@
+img {
+    animation: alternate shake 4s ease-in-out infinite;
+    /* animation-name: shake;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+}
+
+h1 {
+    text-align: center;
+}
+
+h1::after {
+    color: brown;
+    content: '';
+    animation: 4s typing-letter infinite alternate;
+}
+
+@keyframes typing-letter {
+    0% {
+        content: ' |';
+    }
+
+    5% {
+        content: ' F|';
+    }
+
+    10% {
+        content: ' Fr|';
+    }
+
+    15% {
+        content: ' Fro|';
+    }
+
+    20% {
+        content: ' Fron|';
+    }
+
+    25% {
+        content: ' Front|';
+    }
+
+    30% {
+        content: ' Front-|';
+    }
+
+    35% {
+        content: ' Front-E|';
+    }
+
+    40% {
+        content: ' Front-En|';
+    }
+
+    45% {
+        content: ' Front-End|';
+    }
+
+    50% {
+        content: ' Front-En|';
+    }
+
+    55% {
+        content: ' Front-E|';
+    }
+    60% {
+        content: ' Front-E|';
+    }
+    65% {
+        content: ' Front-|';
+    }
+    70% {
+        content: ' Front|';
+    }
+    75% {
+        content: ' Fron|';
+    }
+
+    80% {
+        content: ' Fro|';
+    }
+    85% {
+        content: ' Fr|';
+    }
+
+    90% {
+        content: ' F|';
+    }
+    100% {
+        content: ' |';
+    }
+}
+
+@keyframes shake {
+    from {
+        transform: rotate(30deg);
+    }
+
+    to {
+        transform: rotate(-30deg);
+    }
+}

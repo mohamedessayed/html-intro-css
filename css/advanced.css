@@ -1,0 +1,22 @@
+:root{
+    --hambozo:20px; /*variable*/
+    
+    --main-color:#FFF4B7;
+    --second-color: #000B58;
+    --third-color:#003161;
+
+    color: var(--second-color);
+    background-color: var(--third-color);
+}
+
+h2{
+    font-size: var(--hambozo);
+}
+
+div{
+    background-color: var(--main-color);
+}
+
+p{
+    font-size: var(--hambozo);
+}
