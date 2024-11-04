@@ -10,8 +10,14 @@ div{
     /* background-color: teal; */
     width: 33%;
     display: inline-block;
+    overflow: hidden;
 }
 
 img{
     width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.card:hover img{
+    transform: scale(1.2);
 }
