@@ -21,6 +21,7 @@
 
 .card-detials:hover .social{
     top: 0;
+    color: red;
 }
 
 .social{
